@@ -94,7 +94,6 @@ public class MyWebSocketServer extends WebSocketServer {
 		
 	}
 	public static void main(String[] args){
-	    
 		new MyWebSocketServer("192.168.20.166",9003).start();
 	}
 	
